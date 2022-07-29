@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*
+   final
+
+   Style Sheet for the Layout of the Peachy Boutique Shop online Page
+   Author: Valerie Phanvongkham
+   Date: 09/14/2020
+
+   Filename: pbs_online.css
+
+*/
+
+/* Body Styles */
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  min-width: 640px;
+  width: 95%;
+}
+
+/* Body Header Styles */
+
+body > header > img {
+  display: block;
+  width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+  width: 20%;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+  display: block;
+  float: left;
+}
+
+nav.horizontalNavigation a {
+  display: block;
+  text-align: center;
+}
+
+/* Left Column Styles */
+
+section#leftColumn {
+  clear: left;
+  float: left;
+  width: 33%;
+  padding-top: 10px;
+}
+
+
+/* Right Column Styles */
+
+section#rightColumn {
+  float: left;
+  width: 67%;
+}
+
+section#rightColumn img {
+  display: block;
+  width: 100%;
+}
+
+section#rightColumn > nav.horizontalNavigation li {
+  width: 25%;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: rgb(54, 51, 51);
+  clear: left;
+}
+
+footer::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer > nav.verticalNavigation {
+  float: left;
+  width: 22%;
+}
+
+footer > section#contactInfo {
+  float: left;
+  width: 34%;
+}
